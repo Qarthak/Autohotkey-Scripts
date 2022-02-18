@@ -1,4 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -13,12 +13,16 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :oC:S C::Sarthak Chaudhary
 
 
-!e::Edit
+;Remappings: ! is alt and + is shift and ^ is Ctrl
 
-!r::Reload
+!e::Edit	;Edits the script (in notepad by default)
+;Changing to something like VSCode requires changes in the registry editor
+
+
+!r::Reload	;Reloads the script so it reflects the new changes
 
 ^!x::
-	Suspend
+	Suspend	;Put the script in suspended state. Press again to unsuspend
 Return
 
 
@@ -28,9 +32,13 @@ Alt::
 Return
 	
 Ctrl::
-	Send, {SC15D}
+	Send, {SC15D}	
+	;SC15D refers to the context menu key
+	;The menu key opens a context menu for your current application. It’s basically like right-clicking on your selection in the application
 Return
 
+
+; Up,Down,Left,Right refers to the arrow key
 
 ^Up::
 	Send, {Home}
