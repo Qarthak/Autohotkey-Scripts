@@ -7,7 +7,7 @@ A place to store and document my autohotkey scripts
 
 ! is alt as a prefix
 
-+ is shift as a prefix
+\+ is shift as a prefix
 
 ^ is Ctrl as a prefix
 
