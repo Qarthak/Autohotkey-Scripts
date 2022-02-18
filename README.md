@@ -2,10 +2,15 @@
 A place to store and document my autohotkey scripts
 
 ## Keymapping:
+
 ; is line comment
+
 ! is alt as a prefix
+
 + is shift as a prefix
+
 ^ is Ctrl as a prefix
+
 Up, Down, Left, Right refers to the arrow keys
 
 
