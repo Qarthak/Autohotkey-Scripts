@@ -8,8 +8,7 @@ A place to store and document my autohotkey scripts
 3)   ```+``` is shift as a prefix
 4)   ```^``` is Ctrl as a prefix
 5)   ```#``` is Window Key as a prefix
-
-Up, Down, Left, Right refers to the arrow keys
+6) ```Up```, ```Down```, ```Left```, ```Right``` refers to the arrow keys
 
 
 ## Hot Strings:
