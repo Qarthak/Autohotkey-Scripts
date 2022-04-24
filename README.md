@@ -7,6 +7,7 @@ A place to store and document my autohotkey scripts
 2)   ```!``` is alt as a prefix
 3)   ```+``` is shift as a prefix
 4)   ```^``` is Ctrl as a prefix
+5)   ```#``` is Window Key as a prefix
 
 Up, Down, Left, Right refers to the arrow keys
 
