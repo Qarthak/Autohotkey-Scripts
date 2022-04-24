@@ -3,13 +3,13 @@ A place to store and document my autohotkey scripts
 
 ## Keymapping:
 
-; is line comment
+```;``` is line comment
 
-! is alt as a prefix
+```!``` is alt as a prefix
 
-\+ is shift as a prefix
+```+``` is shift as a prefix
 
-^ is Ctrl as a prefix
+```^``` is Ctrl as a prefix
 
 Up, Down, Left, Right refers to the arrow keys
 
@@ -19,13 +19,13 @@ Shortform::FullForm is for hotstrings where shortform is changed to fullform aft
 
 it has many options which can be inserted between the : and : in :: which gives different effects:
 
-\* (asterisk): An ending character (e.g. Space, ., or Enter) is not required to trigger the hotstring
+```*``` (asterisk): An ending character (e.g. Space, ., or Enter) is not required to trigger the hotstring
 
-? (question mark): The hotstring will be triggered even when it is inside another word
+```?``` (question mark): The hotstring will be triggered even when it is inside another word
 
-C: Case sensitive: When you type an abbreviation, it must exactly match the case defined in the script. Use C0 to turn case sensitivity back off.
+```C```: Case sensitive: When you type an abbreviation, it must exactly match the case defined in the script. Use C0 to turn case sensitivity back off.
 
-o: Omit the ending character of auto-replace hotstrings when the replacement is produced
+```o```: Omit the ending character of auto-replace hotstrings when the replacement is produced
 
 
 Go here to find other options
