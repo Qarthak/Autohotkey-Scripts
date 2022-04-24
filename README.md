@@ -3,13 +3,10 @@ A place to store and document my autohotkey scripts
 
 ## Keymapping:
 
-```;``` is line comment
-
-```!``` is alt as a prefix
-
-```+``` is shift as a prefix
-
-```^``` is Ctrl as a prefix
+1)   ```;``` is line comment
+2)   ```!``` is alt as a prefix
+3)   ```+``` is shift as a prefix
+4)   ```^``` is Ctrl as a prefix
 
 Up, Down, Left, Right refers to the arrow keys
 
